@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: #5e7387;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+ 
+}
+
+.container{
+   width: 40%;
+   border-radius: 10px;
+   position: relative;
+   background-color: white;
+   padding:50px 50px ;
+   
+}
+.head{
+    display: flex;
+    margin-bottom: 10px;
+}
+.head h1{
+    color: rgb(99, 87, 87);
+} 
+#inputField{
+    height: 60px;
+    width: 500px;
+    outline: none;
+    border: 2px solid gray;
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 12px;
+    color: #393737;
+    font-weight: 700;
+    position: relative;
+    font-family: 'Poppins',sans-serif;
+    caret-color: rgb(105, 98, 98);
+}
+
+#inputField::placeholder{
+    color: rgb(85, 85, 85);
+    padding:0 15px;
+    font-size: 20px;
+}
+
+#addToDo{
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 60px;
+    width: 150px;
+    right: 12%;
+    border-radius: 30px;
+    position: absolute;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.to-dos{
+  margin: 10px;
+  color: rgb(119, 69, 2);
+}
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(2, 2, 2);
+    padding: 10px;
+}
+
+
+
